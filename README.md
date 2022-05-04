@@ -1,9 +1,28 @@
 # ALA Thermometer - Elixir with Phoenix LiveView display
 
-Alternative Elixir implementations of John Spray's [Thermometer example](https://github.com/johnspray74/Thermometer) of [ALA software architecture](https://www.abstractionlayeredarchitecture.com/)
+Alternative Elixir implementations of John Spray's **C#** [Thermometer example](https://github.com/johnspray74/Thermometer) written according to his [Abstraction Layered Architecture (ALA)](https://www.abstractionlayeredarchitecture.com/).
 
-* Pre-requisites
+## Pre-requisites
+
   - Elixir and Phoenix support locally [[guide]](https://hexdocs.pm/phoenix/installation.html)
+
+## Design Variant Attributes
+
+Here, "original" indicates naming, design, or other conventions introduced in John Spray's original example code above.
+
+Also, the terminology in the column headings below correspond to the names of "layers" that commonly emerge in [ALA architecture applications](https://www.abstractionlayeredarchitecture.com/#truefolders-and-namespaces).
+
+
+| Variant ID | Abstractions and Layers Naming | Foundation | Programming Paradigms |
+|------------|--------------------------------|------------|-----------------------|
+| Design A   | Original                       | Original   | Original              |
+|            |                                |            |                       |
+|            |                                |            |                       |
+|            |                                |            |                       |
+
+Table generated via [tablesgenerator.com](https://www.tablesgenerator.com/).
+
+## How variant Elixir/Phoenix projects were created
 
 * Creating the simpler examples without a database via
 ```
